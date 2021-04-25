@@ -16,8 +16,22 @@
   box-sizing: border-box;
 }
 
-.cards {
+body {
+  font-family: var(--barlow);
   background-color: var(--light-grayish-blue);
+}
+
+.cards {
+  margin: 4rem 0;
+
+}
+
+.card {
+  width: 350px;
+  margin: 1.5rem auto;
+  border-radius: 10px;
+  position: relative;
+  z-index: 0;
 }
 
 .card--daniel {
@@ -42,13 +56,27 @@
   border: 2px solid var(--light-grayish-blue);
 }
 
+.card__content {
+  position: relative;
+  padding: 1rem;
+  z-index: 2;
+}
+
 
 .card__name {
   color: var(--white);
+  display: inline-block;
 }
 
 .card__grad {
   color: rgba(255, 255, 255, 0.7);
+}
+
+.comma-logo {
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  z-index: 1;
 }
 
 .card__header {
@@ -57,6 +85,12 @@
 
 .card__testimonial {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.card__name,
+.card__grad,
+.card__testimonial {
+  font-weight: 500;
 }
 
 .card__name--jeanette,
