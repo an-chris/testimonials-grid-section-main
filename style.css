@@ -20,25 +20,42 @@
 
 }
 
+.card--daniel {
+
+}
+
+.card--jonathan {
+
+}
+
+.card--jeanette {
+
+}
+
+.card--patrick {
+
+}
+
 .card__image {
   border-radius: 50%;
   border: 2px solid var(--light-grayish-blue);
 }
 
 .card__name {
-
+  color: var(--white);
 }
 
-.card_grad {
+.card__grad {
+  color: rgba(255, 255, 255, 0.7);
 
 }
 
 .card__header {
-
+  color: var(--white);
 }
 
 .card__testimonial {
-
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .attribution { font-size: 11px; text-align: center; }
