@@ -16,6 +16,30 @@
   box-sizing: border-box;
 }
 
+.cards {
+
+}
+
+.card__image {
+  border-radius: 50%;
+  border: 2px solid var(--light-grayish-blue);
+}
+
+.card__name {
+
+}
+
+.card_grad {
+
+}
+
+.card__header {
+
+}
+
+.card__testimonial {
+
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
