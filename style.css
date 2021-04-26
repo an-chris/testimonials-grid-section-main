@@ -21,9 +21,10 @@ body {
   background-color: var(--light-grayish-blue);
 }
 
+/* mobile design */
+
 .cards {
   margin: 4rem 0;
-
 }
 
 .card {
@@ -54,33 +55,50 @@ body {
 .card__image {
   border-radius: 50%;
   border: 2px solid var(--light-grayish-blue);
+  display: block;
+  width: 40px;
 }
 
 .card__content {
   position: relative;
-  padding: 1rem;
+  padding: 2rem;
   z-index: 2;
 }
 
+.card__id-container {
+  display: flex;
+}
+
+.card__id {
+  font-size: .8rem;
+  margin: .2rem 0 0 1rem;
+}
+
+.card__image-container {
+  display: block;
+}
 
 .card__name {
   color: var(--white);
-  display: inline-block;
 }
 
 .card__grad {
   color: rgba(255, 255, 255, 0.7);
+
 }
 
 .comma-logo {
   position: absolute;
-  right: 5%;
+  right: 6%;
   top: 1%;
   z-index: 1;
+  transform: scale(1.1);
 }
 
 .card__header {
   color: var(--white);
+  margin: 1rem 0;
+  font-size: 1.5rem;
 }
 
 .card__testimonial {
@@ -107,8 +125,11 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-bottom: .5rem;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+/* desktop design */
